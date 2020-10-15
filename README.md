@@ -110,3 +110,8 @@ Visit `<raspberrypi_ip>:5000` in your browser to view the stream.
 Note: To view the live stream on a different network than your Raspberry Pi, you can use [ngrok](https://ngrok.com/) to expose a local tunnel. Once downloaded, run ngrok with `./ngrok http 5000` and visit one of the generated links in your browser.
 
 Note: The video stream will not start automatically on startup. To start the video stream automatically, you will need to run the program  from your `/etc/rc.local` file see this [video](https://youtu.be/51dg2MsYHns?t=7m4s) for more information about how to configure that.
+
+
+## Future Plans
+
+Add a way to manage this remotely. When out of town, its likely that the camera may lose power or have some other issue, Noticeably the camera would freeze and require a reboot of the device
